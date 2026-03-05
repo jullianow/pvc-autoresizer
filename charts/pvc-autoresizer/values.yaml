@@ -158,6 +158,8 @@ cert-manager:
 
 serviceAccount:
   # serviceAccount.enabled -- Creates a ServiceAccount for the controller deployment.
-  enabled: true
+  enabled: false
   # serviceAccount.automountServiceAccountToken -- Controls the automatic mounting of ServiceAccount API credentials.
   automountServiceAccountToken: true
+  # serviceAccount.name -- The name for the newly created or existing service account.
+  name: ""
